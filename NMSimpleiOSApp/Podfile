@@ -1,0 +1,38 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ‘8.0’
+
+target 'NMSimpleiOSApp' do
+
+
+#共同库
+pod 'MJRefresh' #下拉刷新
+pod 'Masonry', '~> 1.0.2' #第三方约束
+pod 'IQKeyboardManager', '~> 4.0.10' #键盘遮挡控件
+pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'#友盟统计SDK
+pod 'MJExtension', '~> 3.0.13' #字典模型转化框架
+pod 'BlocksKit', '~> 2.2.5' #block扩展
+pod 'MBProgressHUD' #hud
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'#cell 自动计算高度
+pod 'KVOController', '~> 1.2.0' #KVO管理
+pod 'RTRootNavigationController' #NavigationController扩展
+pod 'NSString-UrlEncode', '~> 1.1.0'
+pod 'WeiboSDK', :git => 'https://github.com/sinaweibosdk/weibo_ios_sdk.git' #微博SDK
+pod 'FDFullscreenPopGesture' #手势返回
+pod 'pop' #用于NMPhotoBrower控件
+pod 'DACircularProgress', '~> 2.3.1' #MWPhotoBrowser控件需要的底层支持控件,圆环的进度指示栏
+pod 'SDWebImage', '~> 4.0.0' #图片下载
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'AFNetworking', '~> 3.1.0' #网络引擎
+pod 'YYKit', '~> 1.0.9' #UI框架
+
+# pod 'ReactiveViewModel', '~> 0.3'
+# pod 'HTHorizontalSelectionList', '~> 0.6.2' #水平选择列表控件
+# pod 'SlackTextViewController', '~> 1.9' #评论控件
+# pod 'FMDB'
+# pod 'TOActionSheet' 
+# pod 'NYAlertViewController'
+# pod 'DOUAudioStreamer', '~> 0.2.15'
+
+end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  APPConfigController.h
 //  NMSimpleiOSApp
 //
 //  Created by idolplay-macpro on 2017/6/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface APPConfigController : UIViewController
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3D6184CA1F04E7F60076CC05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184C91F04E7F60076CC05 /* main.m */; };
 		3D6184CD1F04E7F60076CC05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184CC1F04E7F60076CC05 /* AppDelegate.m */; };
-		3D6184D01F04E7F60076CC05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184CF1F04E7F60076CC05 /* ViewController.m */; };
 		3D6184D31F04E7F60076CC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6184D11F04E7F60076CC05 /* Main.storyboard */; };
 		3D6184D51F04E7F60076CC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D6184D41F04E7F60076CC05 /* Assets.xcassets */; };
 		3D6184D81F04E7F60076CC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6184D61F04E7F60076CC05 /* LaunchScreen.storyboard */; };
 		3D6184E31F04E7F60076CC05 /* NMSimpleiOSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184E21F04E7F60076CC05 /* NMSimpleiOSAppTests.m */; };
 		3D6184EE1F04E7F60076CC05 /* NMSimpleiOSAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184ED1F04E7F60076CC05 /* NMSimpleiOSAppUITests.m */; };
+		3D6184FD1F04E9D30076CC05 /* APPConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184FC1F04E9D30076CC05 /* APPConfigController.m */; };
+		3D6185011F04EA740076CC05 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185001F04EA740076CC05 /* YYFPSLabel.m */; };
+		AB07082BAC763145A18C6348 /* libPods-NMSimpleiOSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230355E2957F6BF7746871CD /* Pods-NMSimpleiOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSimpleiOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3D6184C51F04E7F60076CC05 /* NMSimpleiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMSimpleiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6184C91F04E7F60076CC05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D6184CB1F04E7F60076CC05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D6184CC1F04E7F60076CC05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D6184CE1F04E7F60076CC05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D6184CF1F04E7F60076CC05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D6184D21F04E7F60076CC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D6184D41F04E7F60076CC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D6184D71F04E7F60076CC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		3D6184E91F04E7F60076CC05 /* NMSimpleiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMSimpleiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6184ED1F04E7F60076CC05 /* NMSimpleiOSAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NMSimpleiOSAppUITests.m; sourceTree = "<group>"; };
 		3D6184EF1F04E7F60076CC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6184FB1F04E9D30076CC05 /* APPConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPConfigController.h; sourceTree = "<group>"; };
+		3D6184FC1F04E9D30076CC05 /* APPConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPConfigController.m; sourceTree = "<group>"; };
+		3D6184FF1F04EA740076CC05 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		3D6185001F04EA740076CC05 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		3D61851D1F04EACD0076CC05 /* SimpleAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAppConfig.h; sourceTree = "<group>"; };
+		3D61853A1F04EB500076CC05 /* SimpleiOSApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleiOSApp-Prefix.pch"; sourceTree = "<group>"; };
+		951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMSimpleiOSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD9564910ABEBDB6CE3C88 /* Pods-NMSimpleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSimpleiOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB07082BAC763145A18C6348 /* libPods-NMSimpleiOSApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0661BD9A02410AD89EB9FF14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				230355E2957F6BF7746871CD /* Pods-NMSimpleiOSApp.debug.xcconfig */,
+				A3CD9564910ABEBDB6CE3C88 /* Pods-NMSimpleiOSApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EBC5B6767E19BEC9FBB0822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D6184BC1F04E7F60076CC05 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				3D6184E11F04E7F60076CC05 /* NMSimpleiOSAppTests */,
 				3D6184EC1F04E7F60076CC05 /* NMSimpleiOSAppUITests */,
 				3D6184C61F04E7F60076CC05 /* Products */,
+				0661BD9A02410AD89EB9FF14 /* Pods */,
+				1EBC5B6767E19BEC9FBB0822 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,12 @@
 		3D6184C71F04E7F60076CC05 /* NMSimpleiOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D6184FE1F04EA740076CC05 /* Tools */,
 				3D6184CB1F04E7F60076CC05 /* AppDelegate.h */,
 				3D6184CC1F04E7F60076CC05 /* AppDelegate.m */,
-				3D6184CE1F04E7F60076CC05 /* ViewController.h */,
-				3D6184CF1F04E7F60076CC05 /* ViewController.m */,
+				3D6184FB1F04E9D30076CC05 /* APPConfigController.h */,
+				3D6184FC1F04E9D30076CC05 /* APPConfigController.m */,
+				3D61851D1F04EACD0076CC05 /* SimpleAppConfig.h */,
 				3D6184D11F04E7F60076CC05 /* Main.storyboard */,
 				3D6184D41F04E7F60076CC05 /* Assets.xcassets */,
 				3D6184D61F04E7F60076CC05 /* LaunchScreen.storyboard */,
@@ -117,6 +148,7 @@
 		3D6184C81F04E7F60076CC05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D61853A1F04EB500076CC05 /* SimpleiOSApp-Prefix.pch */,
 				3D6184C91F04E7F60076CC05 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +172,15 @@
 			path = NMSimpleiOSAppUITests;
 			sourceTree = "<group>";
 		};
+		3D6184FE1F04EA740076CC05 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3D6184FF1F04EA740076CC05 /* YYFPSLabel.h */,
+				3D6185001F04EA740076CC05 /* YYFPSLabel.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D6184F21F04E7F60076CC05 /* Build configuration list for PBXNativeTarget "NMSimpleiOSApp" */;
 			buildPhases = (
+				F3CEF823CD2716C180E555FC /* [CP] Check Pods Manifest.lock */,
 				3D6184C11F04E7F60076CC05 /* Sources */,
 				3D6184C21F04E7F60076CC05 /* Frameworks */,
 				3D6184C31F04E7F60076CC05 /* Resources */,
+				2AF524C4FBA1529D7AC3DCBA /* [CP] Embed Pods Frameworks */,
+				54F56306A2152A598C34DA7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +315,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AF524C4FBA1529D7AC3DCBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F56306A2152A598C34DA7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CEF823CD2716C180E555FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D6184C11F04E7F60076CC05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D6184D01F04E7F60076CC05 /* ViewController.m in Sources */,
+				3D6185011F04EA740076CC05 /* YYFPSLabel.m in Sources */,
 				3D6184CD1F04E7F60076CC05 /* AppDelegate.m in Sources */,
 				3D6184CA1F04E7F60076CC05 /* main.m in Sources */,
+				3D6184FD1F04E9D30076CC05 /* APPConfigController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +518,11 @@
 		};
 		3D6184F31F04E7F60076CC05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230355E2957F6BF7746871CD /* Pods-NMSimpleiOSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				GCC_PREFIX_HEADER = "NMSimpleiOSApp/SimpleiOSApp-Prefix.pch";
 				INFOPLIST_FILE = NMSimpleiOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMSimpleiOSApp;
@@ -437,9 +532,11 @@
 		};
 		3D6184F41F04E7F60076CC05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CD9564910ABEBDB6CE3C88 /* Pods-NMSimpleiOSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
+				GCC_PREFIX_HEADER = "NMSimpleiOSApp/SimpleiOSApp-Prefix.pch";
 				INFOPLIST_FILE = NMSimpleiOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMSimpleiOSApp;
@@ -516,6 +613,7 @@
 				3D6184F41F04E7F60076CC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D6184F51F04E7F60076CC05 /* Build configuration list for PBXNativeTarget "NMSimpleiOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +622,7 @@
 				3D6184F71F04E7F60076CC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D6184F81F04E7F60076CC05 /* Build configuration list for PBXNativeTarget "NMSimpleiOSAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +631,7 @@
 				3D6184FA1F04E7F60076CC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
