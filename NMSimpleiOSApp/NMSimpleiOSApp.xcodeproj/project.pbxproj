@@ -22,6 +22,12 @@
 		3D6185511F04EDD20076CC05 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D61854F1F04EDD20076CC05 /* MineViewController.xib */; };
 		3D6185551F04EDE00076CC05 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185531F04EDE00076CC05 /* OtherViewController.m */; };
 		3D6185561F04EDE00076CC05 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6185541F04EDE00076CC05 /* OtherViewController.xib */; };
+		3D6185591F04F5340076CC05 /* IndexViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185581F04F5340076CC05 /* IndexViewModel.m */; };
+		3D61855C1F04F6670076CC05 /* SimpleNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61855B1F04F6670076CC05 /* SimpleNetWork.m */; };
+		3D61855F1F04FE6E0076CC05 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61855E1F04FE6E0076CC05 /* BaseModel.m */; };
+		3D6185631F04FEB20076CC05 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185621F04FEB20076CC05 /* DemoModel.m */; };
+		3D6185661F04FF2B0076CC05 /* PRPDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185651F04FF2B0076CC05 /* PRPDebug.m */; };
+		3D6185691F0504370076CC05 /* Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185681F0504370076CC05 /* Elements.m */; };
 		AB07082BAC763145A18C6348 /* libPods-NMSimpleiOSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +79,18 @@
 		3D6185521F04EDE00076CC05 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		3D6185531F04EDE00076CC05 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		3D6185541F04EDE00076CC05 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		3D6185571F04F5340076CC05 /* IndexViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewModel.h; sourceTree = "<group>"; };
+		3D6185581F04F5340076CC05 /* IndexViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewModel.m; sourceTree = "<group>"; };
+		3D61855A1F04F6670076CC05 /* SimpleNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleNetWork.h; sourceTree = "<group>"; };
+		3D61855B1F04F6670076CC05 /* SimpleNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleNetWork.m; sourceTree = "<group>"; };
+		3D61855D1F04FE6E0076CC05 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		3D61855E1F04FE6E0076CC05 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		3D6185611F04FEB20076CC05 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		3D6185621F04FEB20076CC05 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		3D6185641F04FF2B0076CC05 /* PRPDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPDebug.h; sourceTree = "<group>"; };
+		3D6185651F04FF2B0076CC05 /* PRPDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPDebug.m; sourceTree = "<group>"; };
+		3D6185671F0504370076CC05 /* Elements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elements.h; sourceTree = "<group>"; };
+		3D6185681F0504370076CC05 /* Elements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elements.m; sourceTree = "<group>"; };
 		951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMSimpleiOSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CD9564910ABEBDB6CE3C88 /* Pods-NMSimpleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSimpleiOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,8 +209,14 @@
 		3D6184FE1F04EA740076CC05 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				3D6185641F04FF2B0076CC05 /* PRPDebug.h */,
+				3D6185651F04FF2B0076CC05 /* PRPDebug.m */,
+				3D61855D1F04FE6E0076CC05 /* BaseModel.h */,
+				3D61855E1F04FE6E0076CC05 /* BaseModel.m */,
 				3D6184FF1F04EA740076CC05 /* YYFPSLabel.h */,
 				3D6185001F04EA740076CC05 /* YYFPSLabel.m */,
+				3D61855A1F04F6670076CC05 /* SimpleNetWork.h */,
+				3D61855B1F04F6670076CC05 /* SimpleNetWork.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -210,6 +234,7 @@
 		3D61853C1F04EDB10076CC05 /* Index */ = {
 			isa = PBXGroup;
 			children = (
+				3D6185601F04FE840076CC05 /* Model */,
 				3D61853D1F04EDB10076CC05 /* Layout */,
 				3D61853E1F04EDB10076CC05 /* View */,
 				3D61853F1F04EDB10076CC05 /* ViewModel */,
@@ -237,6 +262,8 @@
 		3D61853F1F04EDB10076CC05 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3D6185571F04F5340076CC05 /* IndexViewModel.h */,
+				3D6185581F04F5340076CC05 /* IndexViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -307,6 +334,17 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D6185601F04FE840076CC05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D6185611F04FEB20076CC05 /* DemoModel.h */,
+				3D6185621F04FEB20076CC05 /* DemoModel.m */,
+				3D6185671F0504370076CC05 /* Elements.h */,
+				3D6185681F0504370076CC05 /* Elements.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,13 +537,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6185691F0504370076CC05 /* Elements.m in Sources */,
+				3D61855C1F04F6670076CC05 /* SimpleNetWork.m in Sources */,
 				3D6185011F04EA740076CC05 /* YYFPSLabel.m in Sources */,
+				3D6185661F04FF2B0076CC05 /* PRPDebug.m in Sources */,
+				3D6185631F04FEB20076CC05 /* DemoModel.m in Sources */,
 				3D6184CD1F04E7F60076CC05 /* AppDelegate.m in Sources */,
 				3D6184CA1F04E7F60076CC05 /* main.m in Sources */,
 				3D6185501F04EDD20076CC05 /* MineViewController.m in Sources */,
 				3D6184FD1F04E9D30076CC05 /* APPConfigController.m in Sources */,
 				3D6185551F04EDE00076CC05 /* OtherViewController.m in Sources */,
 				3D61854B1F04EDC50076CC05 /* IndexViewController.m in Sources */,
+				3D61855F1F04FE6E0076CC05 /* BaseModel.m in Sources */,
+				3D6185591F04F5340076CC05 /* IndexViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,7 +702,52 @@
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
 				GCC_PREFIX_HEADER = "NMSimpleiOSApp/SimpleiOSApp-Prefix.pch";
 				INFOPLIST_FILE = NMSimpleiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FDFullscreenPopGesture\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/KVOController\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-UrlEncode\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RTRootNavigationController\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UITableView+FDTemplateLayoutCell\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WeiboSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"-DPRPDEBUG",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMSimpleiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -672,6 +761,7 @@
 				DEVELOPMENT_TEAM = 7524R5UJ2G;
 				GCC_PREFIX_HEADER = "NMSimpleiOSApp/SimpleiOSApp-Prefix.pch";
 				INFOPLIST_FILE = NMSimpleiOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nm.NMSimpleiOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

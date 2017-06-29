@@ -40,11 +40,11 @@
 - (void)setupRootViewController
 {
   
-  UINavigationController *indexNav    = [self makeController:[IndexViewController class]
+  UINavigationController *indexNav = [self makeController:[IndexViewController class]
                                             itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                            itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                        title:@"首页"];
-  UINavigationController * otherANav   = [self makeController:[OtherViewController class]
+  UINavigationController * otherANav = [self makeController:[OtherViewController class]
                                             itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                            itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                        title:@"其他A"];
@@ -52,7 +52,7 @@
                                             itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                            itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                        title:@"其他B"];
-  UINavigationController * mineNav    = [self makeController:[MineViewController class]
+  UINavigationController * mineNav = [self makeController:[MineViewController class]
                                             itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                            itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
                                                        title:@"我"];
