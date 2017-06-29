@@ -8,6 +8,10 @@
 
 #import "APPConfigController.h"
 #import "YYFPSLabel.h"
+#import "AppDelegate.h"
+#import "IndexViewController.h"
+#import "MineViewController.h"
+#import "OtherViewController.h"
 
 @interface APPConfigController ()
 
@@ -36,33 +40,48 @@
 - (void)setupRootViewController
 {
   
-//  UINavigationController *indexNav    = [self makeController:[HeadlineViewController class]
-//                                            itemImageNormall:TabIndexNormalIcon
-//                                           itemImageSelected:TabIndexSelectedIcon
-//                                                       title:@"Z.TAO"];
-//  UINavigationController * postsNav   = [self makeController:[HLViewController class]
-//                                            itemImageNormall:TabPostsNormalIcon
-//                                           itemImageSelected:TabPostsSelectedIcon
-//                                                       title:@"海浪"];
-//  UINavigationController * welfareNav = [self makeController:[WelfareViewController class]
-//                                            itemImageNormall:TabWelfareNormalIcon
-//                                           itemImageSelected:TabWelfareSelectedIcon
-//                                                       title:@"福利"];
-//  UINavigationController * mineNav    = [self makeController:[MineViewController class]
-//                                            itemImageNormall:TabMineNormalIcon
-//                                           itemImageSelected:TabMineSelectedIcon
-//                                                       title:@"我"];
-//  self.rootController = [[IDOTabBarController alloc] init];
-//  [self.rootController setViewControllers:@[indexNav,postsNav,welfareNav,mineNav]];
-//  
-//  AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-//  
-//  appDelegate.window.rootViewController = self.rootController;
-//  [appDelegate.window makeKeyAndVisible];
+  UINavigationController *indexNav    = [self makeController:[IndexViewController class]
+                                            itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                           itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                                       title:@"首页"];
+  UINavigationController * otherANav   = [self makeController:[OtherViewController class]
+                                            itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                           itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                                       title:@"其他A"];
+  UINavigationController * otherBNav = [self makeController:[OtherViewController class]
+                                            itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                           itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                                       title:@"其他B"];
+  UINavigationController * mineNav    = [self makeController:[MineViewController class]
+                                            itemImageNormall:[[UIImage imageNamed:@"TabIndexNormal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                           itemImageSelected:[[UIImage imageNamed:@"TabIndexSelected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                                       title:@"我"];
+  self.rootController = [[UITabBarController alloc] init];
+  [self.rootController setViewControllers:@[indexNav,otherANav,otherBNav,mineNav]];
+  
+  AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+  
+  appDelegate.window.rootViewController = self.rootController;
+  [appDelegate.window makeKeyAndVisible];
   
   
 }
 
+- (UINavigationController *)makeController:(Class)VCClass
+                          itemImageNormall:(UIImage *)normallImage
+                         itemImageSelected:(UIImage *)selectedImage
+                                     title:(NSString *)title
+{
+  UIViewController *controller = [[VCClass alloc] init];
+  
+  UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+  nav.tabBarItem.selectedImage = selectedImage;
+  nav.tabBarItem.image = normallImage;
+  nav.tabBarItem.title = title;
+  nav.tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -4);
+  nav.tabBarItem.imageInsets = UIEdgeInsetsMake(-1, 0, 1, 0);
+  return nav;
+}
 /*
  #pragma mark - Navigation
  

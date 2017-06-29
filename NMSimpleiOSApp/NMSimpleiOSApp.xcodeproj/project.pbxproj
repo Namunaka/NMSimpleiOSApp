@@ -16,6 +16,12 @@
 		3D6184EE1F04E7F60076CC05 /* NMSimpleiOSAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184ED1F04E7F60076CC05 /* NMSimpleiOSAppUITests.m */; };
 		3D6184FD1F04E9D30076CC05 /* APPConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6184FC1F04E9D30076CC05 /* APPConfigController.m */; };
 		3D6185011F04EA740076CC05 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185001F04EA740076CC05 /* YYFPSLabel.m */; };
+		3D61854B1F04EDC50076CC05 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185491F04EDC50076CC05 /* IndexViewController.m */; };
+		3D61854C1F04EDC50076CC05 /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D61854A1F04EDC50076CC05 /* IndexViewController.xib */; };
+		3D6185501F04EDD20076CC05 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61854E1F04EDD20076CC05 /* MineViewController.m */; };
+		3D6185511F04EDD20076CC05 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D61854F1F04EDD20076CC05 /* MineViewController.xib */; };
+		3D6185551F04EDE00076CC05 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6185531F04EDE00076CC05 /* OtherViewController.m */; };
+		3D6185561F04EDE00076CC05 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6185541F04EDE00076CC05 /* OtherViewController.xib */; };
 		AB07082BAC763145A18C6348 /* libPods-NMSimpleiOSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +64,15 @@
 		3D6185001F04EA740076CC05 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		3D61851D1F04EACD0076CC05 /* SimpleAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAppConfig.h; sourceTree = "<group>"; };
 		3D61853A1F04EB500076CC05 /* SimpleiOSApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleiOSApp-Prefix.pch"; sourceTree = "<group>"; };
+		3D6185481F04EDC50076CC05 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		3D6185491F04EDC50076CC05 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		3D61854A1F04EDC50076CC05 /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
+		3D61854D1F04EDD20076CC05 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		3D61854E1F04EDD20076CC05 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		3D61854F1F04EDD20076CC05 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		3D6185521F04EDE00076CC05 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		3D6185531F04EDE00076CC05 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		3D6185541F04EDE00076CC05 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
 		951E171EC2E895FC38B77557 /* libPods-NMSimpleiOSApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMSimpleiOSApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CD9564910ABEBDB6CE3C88 /* Pods-NMSimpleiOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMSimpleiOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMSimpleiOSApp/Pods-NMSimpleiOSApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6184FE1F04EA740076CC05 /* Tools */,
+				3D61853B1F04EDB10076CC05 /* ViewController */,
 				3D6184CB1F04E7F60076CC05 /* AppDelegate.h */,
 				3D6184CC1F04E7F60076CC05 /* AppDelegate.m */,
 				3D6184FB1F04E9D30076CC05 /* APPConfigController.h */,
@@ -179,6 +195,118 @@
 				3D6185001F04EA740076CC05 /* YYFPSLabel.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		3D61853B1F04EDB10076CC05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3D61853C1F04EDB10076CC05 /* Index */,
+				3D6185401F04EDB10076CC05 /* Mine */,
+				3D6185441F04EDB10076CC05 /* Other */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3D61853C1F04EDB10076CC05 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				3D61853D1F04EDB10076CC05 /* Layout */,
+				3D61853E1F04EDB10076CC05 /* View */,
+				3D61853F1F04EDB10076CC05 /* ViewModel */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		3D61853D1F04EDB10076CC05 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		3D61853E1F04EDB10076CC05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D6185481F04EDC50076CC05 /* IndexViewController.h */,
+				3D6185491F04EDC50076CC05 /* IndexViewController.m */,
+				3D61854A1F04EDC50076CC05 /* IndexViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D61853F1F04EDB10076CC05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D6185401F04EDB10076CC05 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3D6185411F04EDB10076CC05 /* Layout */,
+				3D6185421F04EDB10076CC05 /* View */,
+				3D6185431F04EDB10076CC05 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3D6185411F04EDB10076CC05 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		3D6185421F04EDB10076CC05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D61854D1F04EDD20076CC05 /* MineViewController.h */,
+				3D61854E1F04EDD20076CC05 /* MineViewController.m */,
+				3D61854F1F04EDD20076CC05 /* MineViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D6185431F04EDB10076CC05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D6185441F04EDB10076CC05 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3D6185451F04EDB10076CC05 /* Layout */,
+				3D6185461F04EDB10076CC05 /* View */,
+				3D6185471F04EDB10076CC05 /* ViewModel */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3D6185451F04EDB10076CC05 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		3D6185461F04EDB10076CC05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D6185521F04EDE00076CC05 /* OtherViewController.h */,
+				3D6185531F04EDE00076CC05 /* OtherViewController.m */,
+				3D6185541F04EDE00076CC05 /* OtherViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D6185471F04EDB10076CC05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +421,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6185511F04EDD20076CC05 /* MineViewController.xib in Resources */,
+				3D6185561F04EDE00076CC05 /* OtherViewController.xib in Resources */,
 				3D6184D81F04E7F60076CC05 /* LaunchScreen.storyboard in Resources */,
 				3D6184D51F04E7F60076CC05 /* Assets.xcassets in Resources */,
 				3D6184D31F04E7F60076CC05 /* Main.storyboard in Resources */,
+				3D61854C1F04EDC50076CC05 /* IndexViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +502,10 @@
 				3D6185011F04EA740076CC05 /* YYFPSLabel.m in Sources */,
 				3D6184CD1F04E7F60076CC05 /* AppDelegate.m in Sources */,
 				3D6184CA1F04E7F60076CC05 /* main.m in Sources */,
+				3D6185501F04EDD20076CC05 /* MineViewController.m in Sources */,
 				3D6184FD1F04E9D30076CC05 /* APPConfigController.m in Sources */,
+				3D6185551F04EDE00076CC05 /* OtherViewController.m in Sources */,
+				3D61854B1F04EDC50076CC05 /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
