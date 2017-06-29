@@ -8,7 +8,6 @@
 
 #import "IndexViewModel.h"
 #import "SimpleNetWork.h"
-#import "DemoModel.h"
 
 @interface IndexViewModel ()
 
@@ -69,7 +68,7 @@
      [[execution dematerialize]
       subscribeNext:^(id obj) {
         @strongify(self)
-
+        //这里进行模型的2次处理把生数据进行转化,理论上网络引擎层应该自动过滤服务器返回的错误数据并给予提示
         if ([obj isKindOfClass:[NSDictionary class]]) {
           NSDictionary *responseDic = ((NSDictionary *)obj)[@"data"];
           self.model = [[DemoModel alloc] initWithDictionary:responseDic];

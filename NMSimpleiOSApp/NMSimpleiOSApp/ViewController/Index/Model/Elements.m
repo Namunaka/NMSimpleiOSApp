@@ -7,7 +7,20 @@
 //
 
 #import "Elements.h"
+#import "PRPDebug.h"
 
 @implementation Elements
+
+
+
+#pragma mark -
+#pragma mark - KVC
+- (void)setValue:(id)value forKey:(NSString *)key {
+  [super setValue:value forKey:key];
+}
+
+- (NSString *)description {
+  return descriptionForDebug(self);
+}
 
 @end

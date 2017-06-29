@@ -15,4 +15,5 @@
 @property (copy, nonatomic) NSString *date_time;
 @property (copy, nonatomic) NSArray <Elements *> *elements;
 @property (assign, nonatomic) NSInteger next_start;
+
 @end

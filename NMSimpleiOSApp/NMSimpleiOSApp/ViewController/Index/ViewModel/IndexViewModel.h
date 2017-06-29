@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DemoModel.h"
 
 @interface IndexViewModel : NSObject
+
+@property (strong, readonly, nonatomic) DemoModel *model;
 
 @property (strong , readonly , nonatomic) RACCommand *requestDemoListCommand;
 @property (strong , readonly , nonatomic) RACCommand *cancelRequestDemoListCommand;

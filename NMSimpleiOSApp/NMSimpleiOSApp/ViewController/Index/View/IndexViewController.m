@@ -42,7 +42,9 @@
    subscribeNext:^(RACSignal *execution) {
      [[execution dematerialize]
       subscribeNext:^(id obj) {
-        NSLog(@"");
+        @strongify(self)
+        DemoModel *model = self.viewModel.model;
+        NSLog(@"数据请求成功");
       } error:^(NSError *error) {
         NSLog(@"");
         
